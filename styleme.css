@@ -1,0 +1,68 @@
+body {
+    font-family: sans-serif;
+    background-image: url("bg-texture.png");
+    background-repeat: repeat;
+    margin: 15px;
+}
+
+body div,
+footer {
+    background-color: rgb(228, 217, 217);
+    padding: 15px;
+    color: blue;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+div>img {
+    width: 300px;
+    height: 200px;
+}
+
+#title {
+    color: coral;
+}
+
+h4 {
+    color: chocolate;
+}
+
+.happy {
+    color: blue;
+}
+
+.sad {
+    color: red;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.drop-cap {
+    float: left;
+
+
+    line-height: 50%;
+
+
+    font-size: 400%;
+
+
+    font-family: georgia;
+}
+
+dt {
+    color: yellowgreen;
+    font-weight: bold;
+}
+
+dd {
+    color: black;
+}
